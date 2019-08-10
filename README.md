@@ -1,33 +1,42 @@
-# Simple REST
+# Simple REST API using Express JS
 ![](https://img.shields.io/badge/Code%20Style-Standard-yellow.svg)
 ![](https://img.shields.io/badge/Dependencies-Express-green.svg)
-![](https://img.shields.io/badge/License-KHsoft-yellowgreen.svg)
+![](https://img.shields.io/badge/License-Beerware-yellowgreen.svg)
 
 
-## Getting started
+## Prerequiste
 - Node.js - Download and Install [Node.js](https://nodejs.org/en/) with [NVM](https://github.com/creationix/nvm) (Node Version Manager) - Simple bash script to manage multiple active node.js versions.
-- npm init parent foldernya,lalu install yang di perlukan seperti npm install express mysql body-parser dotenv
-  
+- MySQL - Download and Install [MySQL](https://www.mysql.com/downloads/) - Make sure it's running on the default port.  
+- Post man - Download and install .[Post Man] to test Play with this API 
 
+## Installation
+### Clone
+```
+$ git clone https://github.com/tatasfachrul/simple-REST
+$ cd simple-REST
+$ npm install
+```
 
-
-### Buat Environment Variable
+### Create Environment Variable
 ```
 $ touch .env
 $ nano .env
 ```
-### Buat file .env sendiri untuk konfigurasi DB
+
 ```
 DB_HOST="Your_Host"
-DB_USERNAME="Your_Username"
+DB_USER="Your_Username"
 DB_PASSWORD="Your_Password"
 DB_NAME="Your_Table"
 
 SERVER_PORT=9999
 ```
-### Lalu Start Development Server Dengan mengetik
+### Start Development Server
 ```
 $ npm start
-
-npm start ini menjalanakan file yang di konfigurasikan di file package.json dapat di ubah seseuai kebutuhan
 ```
+
+### License
+----
+
+[Beerware](https://en.wikipedia.org/wiki/Beerware "Beerware") © [Tatas](https://github.com/tatasfachrul "Tatas")
